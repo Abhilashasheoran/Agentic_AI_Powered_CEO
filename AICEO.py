@@ -12,7 +12,7 @@ os.environ["GOOGLE_API_KEY"] = "your-gemini-api-key"  # 🔑 Replace this
 # 🧠 2. Load Gemini model
 llm = ChatGoogleGenerativeAI(
     model="gemini-2.0-flash",
-    google_api_key="AIzaSyBooWQhuxQJOzJWA5JGKF_SQceLi9mGczM",
+    google_api_key="AIzaSyBooWQhuxQJOWA5JGKF_SQceLi9mGczM",
     convert_system_message_to_human=True,
     temperature=0.5
 )
